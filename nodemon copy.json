@@ -1,0 +1,8 @@
+{
+    "env": {
+         "DATABASE_NAME": "breviews",
+         "DATABASE_PASSWORD": "123",
+         "DATABASE_USER": "Ulan",
+         "SECRET_KEY": "xyz123"
+    }
+}

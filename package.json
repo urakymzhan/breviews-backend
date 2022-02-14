@@ -1,0 +1,30 @@
+{
+  "name": "breviews",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=13.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "nodemonn": "nodemon server"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "express": "~4.16.0",
+    "express-validator": "^6.5.0",
+    "http-errors": "~1.6.2",
+    "http-proxy-middleware": "^1.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
